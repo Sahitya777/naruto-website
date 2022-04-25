@@ -1,0 +1,23 @@
+@use '../../../styles/' as *;
+
+.welcome{
+    &_content{
+        @include flex(center,center);
+    }
+    &_info,&_img{
+        width: 50%;
+        height: 100%;
+    }
+    &_info{
+        @include flex(flex-start, flex-end);
+        &_content{
+            padding-left: 15rem;
+            .description{
+                font-size: 1rem;
+            }
+            .btns> * ~ *{
+                margin-left: 1rem;
+            }
+        }
+    }
+}

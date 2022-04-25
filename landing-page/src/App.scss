@@ -42,6 +42,7 @@ iframe{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
 }
 .overlay{
   position: relative;
@@ -83,4 +84,9 @@ iframe{
 }
 .relative{
   position: relative;
+}
+.swiper, .swiper-slide{
+  height:100%;
+  width: 100%;
+  
 }

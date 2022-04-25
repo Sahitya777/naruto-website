@@ -1,0 +1,63 @@
+@use '../../styles/' as*;
+.header{
+    height: $header-height;
+    position: fixed;
+    
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    position-events: none;
+     &_inner{
+         @include flex(center,space-between);
+         height:70%;
+
+     }
+     &_logo{
+
+         width: 150px;
+         pointer-events: visible;
+
+         img{
+            
+             margin-left: 20px;
+             width: 100%;
+         }
+     }
+     &_nav{
+         @include flex(center,space-between);
+        margin-right: 30px;
+         li ~ li{
+             margin-left: 1rem;
+             
+         }
+         a{
+            display: inline-block;
+            padding: 0.5rem;
+            text-transform: uppercase;
+            position: relative;
+            pointer-events: visible;
+
+            &::before, &::after{
+                content:"";
+                position: absolute;
+                height:2px;
+                width: 0;
+                background-color: $main-color;
+                transition: width .3s ease;
+            }
+            &:hover::before,&:hover::after{
+                width: 50%;
+
+            }
+            &::before{
+                left: 0;
+                top: 0;
+
+            }
+            &::after{
+                right: 0;
+                bottom: 0;
+            }
+         }
+     }
+}
