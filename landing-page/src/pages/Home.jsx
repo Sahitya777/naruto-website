@@ -8,9 +8,14 @@ import SwiperCore, {
     Mousewheel,
     Pagination
 } from 'swiper'
+
 import {
-    Welcome
-} from "../components/home-section"
+    Welcome,
+
+} from '../components/home-section'
+
+
+
 SwiperCore.use([Mousewheel, Pagination, EffectFade])
 
 const swiperOptions = {
@@ -23,19 +28,20 @@ const swiperOptions = {
     speed: 1000
 }
 
-const Home=()=> {
-  return (
-    <div>
-        <Swiper {...swiperOptions}>
-            <SwiperSlide>
-            {({ isActive }) => <Welcome isActive={isActive}/>}
-            </SwiperSlide>
-            <SwiperSlide>
-                slide 2
-            </SwiperSlide>
-        </Swiper>
-    </div>
-  )
+const Home = () => {
+    return (
+        <>
+            <Swiper {...swiperOptions}>
+                <SwiperSlide>
+                    {({ isActive }) => <Welcome isActive={isActive}/>}
+                </SwiperSlide>
+
+
+            </Swiper>
+
+
+        </>
+    )
 }
 
 export default Home
