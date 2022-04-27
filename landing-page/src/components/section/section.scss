@@ -9,13 +9,13 @@
         visibility: visible;
     }
 
-    &.active &__content {
+    &.active &_content {
         transform: scale(1);
         opacity: 1;
         transition-delay: 0.3s;
     }
 
-    &__content {
+    &_content {
         position: relative;
         height: 100%;
         transform: scale(3);

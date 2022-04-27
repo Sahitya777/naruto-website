@@ -16,7 +16,7 @@ export const SectionContent = props => {
 
     return (
         <div
-            className={`section__content ${props.className}`}
+            className={`section_content ${props.className}`}
             style={bgImage}
         >
             {props.children}
