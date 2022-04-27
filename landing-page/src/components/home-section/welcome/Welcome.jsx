@@ -30,10 +30,11 @@ const Welcome=props=> {
     })
     welcomeImgs.forEach(e => e.remove())
 
-    let currItem = 0
+    
 
     const autoImageSlide = () => {
-        let prevItem = currItem
+        let currItem = 0
+        let prevItem = currItem;
         currItem = (currItem + 1) % animates.length
 
         if (!document.hidden) {
@@ -86,4 +87,4 @@ const Welcome=props=> {
   )
 }
 
-export default Welcome
+export default Welcome;
