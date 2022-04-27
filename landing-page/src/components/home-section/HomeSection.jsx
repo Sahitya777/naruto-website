@@ -7,7 +7,7 @@ const HomeSection = props => {
         >
             <SectionContent
                 className={props.contentClassName}
-                bgImage={props.bgImage}
+                 bgImage={props.bgImage}
             >
                 {props.children}
             </SectionContent>

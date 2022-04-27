@@ -11,7 +11,7 @@ import SwiperCore, {
 
 import {
     Welcome,
-
+    Champion
 } from '../components/home-section'
 
 
@@ -35,7 +35,9 @@ const Home = () => {
                 <SwiperSlide>
                     {({ isActive }) => <Welcome isActive={isActive}/>}
                 </SwiperSlide>
-
+                <SwiperSlide>
+                {({ isActive }) => <Champion isActive={isActive}/>}
+                </SwiperSlide>
 
             </Swiper>
 

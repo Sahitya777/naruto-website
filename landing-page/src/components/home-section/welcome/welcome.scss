@@ -17,7 +17,8 @@
     &_info{
         @include flex(flex-start, flex-end);
         &_content{
-            padding-left: 10rem;
+            padding-left: 8rem;
+            padding-right: 4rem;
             .description{
                 font-size: 1rem;
             }
