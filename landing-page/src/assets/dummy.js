@@ -22,7 +22,7 @@ import {
 export const championsData = [
     {
         img: cardAkali,
-        name: 'akali',
+        name: 'jiraya',
         bg: bgAkali,
         nickName: 'THE ROGUE ASSASSIN',
         role: 'ASSASSIN',
