@@ -33,7 +33,7 @@ export const championsData = [
     },
     {
         img: cardFortune,
-        name: 'miss fortune',
+        name: 'minato',
         bg: bgFortune,
         nickName: 'THE BOUNTY HUNTER',
         role: 'MARKSMAN',
@@ -44,7 +44,7 @@ export const championsData = [
     },
     {
         img: cardAshe,
-        name: 'ashe',
+        name: 'naruto',
         bg: bgAshe,
         nickName: 'THE FROST ARCHER',
         role: 'MARKSMAN',

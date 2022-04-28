@@ -4,12 +4,14 @@
 .champion-card {
     $width: 350px;
     width: $width;
-    height: #{math.div($width * 9, 16)}px;
+    height: 500px;
+    // height: #{math.div($width * 9, 16)}px;
     position: relative;
     pointer-events: none;
 
     img {
         max-width: 100%;
+        height: 98%;
         position: relative;
         opacity: 0;
         transition: opacity 0.5s ease;
