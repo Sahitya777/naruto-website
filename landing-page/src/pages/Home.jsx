@@ -42,9 +42,9 @@ const Home = () => {
 
             </Swiper>
             {
-                championsData.map((item,index)=> <ChampionDetail
+                championsData.map((item, index) => <ChampionDetail
                     key={index}
-                    item={index}
+                    item={item}
                     id={index}
                 />)
             }

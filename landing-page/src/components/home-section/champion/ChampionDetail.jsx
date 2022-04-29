@@ -24,7 +24,7 @@ const ChampionDetail=props=> {
   return (
     <div
     id={`champ-detail-${props.id}`}
-    className={`champion-detail bg-image overlay ${props.active ? 'active' : ''}`}
+    className={`champion-detail bgImage overlay ${props.active ? 'active' : ''}`}
     style={{backgroundImage: `url(${item.bgLarge})`}}
     >
         <div className='champion-detail_content'>
