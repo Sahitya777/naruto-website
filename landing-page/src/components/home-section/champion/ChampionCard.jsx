@@ -24,7 +24,7 @@ const ChampionCard=props=> {
 
     setTimeout(() => {
         newNode.style.width = 'auto'
-        newNode.style.height = '100%'
+        newNode.style.height = '95%'
         newNode.style.top = 0
         newNode.style.left = 0
     },)
