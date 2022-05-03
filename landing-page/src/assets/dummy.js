@@ -66,9 +66,9 @@ export const championsData = [
     },
     {
         img: cardAhri,
-        name: 'ahri',
+        name: 'sasuke',
         bg: bgAhri,
-        nickName: 'THE NINE-TAILED FOX',
+        nickName: 'THE LAST UCHIHA',
         role: 'MAGE',
         difficulty: 'MODERATE',
         description: 'Innately connected to the latent power of Runeterra, Ahri is a vastaya who can reshape magic into orbs of raw energy. She revels in toying with her prey by manipulating their emotions before devouring their life essence. Despite her predatory nature, Ahri retains a sense of empathy as she receives flashes of memory from each soul she consumes.',
