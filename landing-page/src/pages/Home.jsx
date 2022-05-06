@@ -12,7 +12,8 @@ import SwiperCore, {
 import {
     Welcome,
     Champion,
-    ChampionDetail
+    ChampionDetail,
+    Trailer
 } from '../components/home-section'
 import {championsData} from '../assets/dummy'
 
@@ -39,7 +40,9 @@ const Home = () => {
                 <SwiperSlide>
                 {({ isActive }) => <Champion isActive={isActive}/>}
                 </SwiperSlide>
-
+                <SwiperSlide>
+                {({ isActive }) => <Trailer isActive={isActive}/>}
+                </SwiperSlide>
             </Swiper>
             {
                 championsData.map((item, index) => <ChampionDetail

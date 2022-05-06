@@ -1,8 +1,10 @@
 import Welcome from "./welcome/Welcome";
 import Champion from "./champion/Champion";
 import ChampionDetail from "./champion/ChampionDetail";
+import Trailer from "./trailer/Trailer";
 export{
     Welcome,
     Champion,
-    ChampionDetail
+    ChampionDetail,
+    Trailer
 }
