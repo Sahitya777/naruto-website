@@ -102,3 +102,52 @@ iframe {
 .swiper-slide {
     height: 100%;
 }
+.swiper-pagination-bullet {
+    $size: 20px;
+    width: $size;
+    height: $size;
+    border-radius: unset;
+    margin: 10px;
+    background-color: transparent;
+
+    position: relative;
+
+    &::before {
+        content: "";
+        width: 80%;
+        height: 80%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+        background-color: $second-color;
+    }
+
+    &-active {
+        background-color: transparent;
+
+        &::before {
+            background-color: $main-color;
+        }
+    }
+}
+.scroll {
+    position: fixed;
+    bottom: 1rem;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: bounce 3s ease infinite;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateX(-50%) translateY(0);
+    }
+    50% {
+        transform: translateX(-50%) translateY(-10px);
+    }
+    100% {
+        transform: translateX(-50%) translateY(0);
+    }
+}

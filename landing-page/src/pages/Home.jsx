@@ -13,7 +13,8 @@ import {
     Welcome,
     Champion,
     ChampionDetail,
-    Trailer
+    Trailer,
+    Credit
 } from '../components/home-section'
 import {championsData} from '../assets/dummy'
 
@@ -43,7 +44,13 @@ const Home = () => {
                 <SwiperSlide>
                 {({ isActive }) => <Trailer isActive={isActive}/>}
                 </SwiperSlide>
+                <SwiperSlide>
+                {({ isActive }) => <Credit isActive={isActive}/>}
+                </SwiperSlide>
             </Swiper>
+            <div className='scroll'>
+                <span>Scroll to see effect</span>
+            </div>
             {
                 championsData.map((item, index) => <ChampionDetail
                     key={index}
