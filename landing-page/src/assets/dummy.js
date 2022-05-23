@@ -27,7 +27,7 @@ export const championsData = [
         nickName: 'THE PERVY SAGE',
         role: 'ASSASSIN',
         difficulty: 'MODERATE',
-        description: `Abandoning the Kinkou Order and her title of the Fist of Shadow, Akali now strikes alone, ready to be the deadly weapon her people need. Though she holds onto all she learned from her master Shen, she has pledged to defend Ionia from its enemies, one kill at a time. Akali may strike in silence, but her message will be heard loud and clear: fear the assassin with no master.`,
+        description: `Famed as a hermit and pervert of stupendous ninja skill, Jiraiya travelled the world in search of knowledge that would help his friends, the various novels he wrote, and, posthumously, the world in its entirety – knowledge that would be passed on to his godson and final student, Naruto Uzumaki.`,
         video: 'p9SNN1xfE-I',
         bgLarge: bgLargeAkali
     },

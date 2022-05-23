@@ -7,7 +7,7 @@ import Button from '../../button/Button'
 
 const Credit = props => {
 
-    const videoRef = useRef(null)
+    const videoRef = useRef(null);
 
     useEffect(() => {
         videoRef.current.play()
@@ -31,6 +31,7 @@ const Credit = props => {
                 width="100%"
                 height="auto"
                 loop={true}
+                muted="muted"
                 className="overlay"
             >
                 <source src={bgVideo} type="video/mp4"/>
@@ -38,7 +39,7 @@ const Credit = props => {
             <div className="credit_content">
                 <div className="title">
                     <span>Start Your</span>
-                    <h2 className="main-color">LEGENDS</h2>
+                    <h2 className="main-color">FIGHT</h2>
                 </div>
                 <div className="btns m-t-4">
                     <Button className="btn-main">PLAY NOW</Button>

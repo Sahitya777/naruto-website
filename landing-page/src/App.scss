@@ -151,3 +151,57 @@ iframe {
         transform: translateX(-50%) translateY(0);
     }
 }
+@media(max-width:998px){
+    html{
+        font-size: 75%;
+    }
+    .header_inner{
+        margin-top: 20px;
+    }
+    .welcome{
+
+        &_info{
+            width: 50%;
+            height:100%;
+        }
+        &_img{
+            height: 50%;
+            width: 50%;
+        }
+     
+    
+        &_info{
+            @include flex(flex-start, flex-end);
+            &_content{
+                padding-left: 8rem;
+                padding-right: 4rem;
+                .description{
+                    font-size: 1rem;
+                }
+                .btns> * ~ *{
+                    margin-left: 1rem;
+                }
+            }
+        }
+        &_img{
+           @include flex(flex-end,flex-start);
+            height: 50%;;
+            &_slide{
+                height: 205px;
+                width: 205px;
+                
+                
+            }
+        }
+    }
+    .welcome_info_content{
+        margin-top: 20px;
+        padding-left: 10px;
+    }
+
+}
+@media(max-width:768px) {
+    html{
+        font-size: 45%;
+    }
+}
