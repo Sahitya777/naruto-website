@@ -28,7 +28,7 @@ const Credit = props => {
         <div className={`credit overlay ${props.isActive ? 'active' : ''}`}>
             <video
                 ref={videoRef}
-                width="90%"
+                width="100%"
                 height="auto"
                 loop={true}
                 className="overlay"
@@ -38,7 +38,7 @@ const Credit = props => {
             <div className="credit_content">
                 <div className="title">
                     <span>Start Your</span>
-                    <h2 className="main-color">FIGHT</h2>
+                    <h2 className="main-color">LEGENDS</h2>
                 </div>
                 <div className="btns m-t-4">
                     <Button className="btn-main">PLAY NOW</Button>

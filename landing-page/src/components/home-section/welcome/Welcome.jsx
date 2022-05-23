@@ -38,13 +38,13 @@ const Welcome=props=> {
         currItem = (currItem + 1) % animates.length
 
         if (!document.hidden) {
-            animates[prevItem].next()
+            // animates[prevItem].next()
         }
 
         setTimeout(() => {
             let canvas = document.querySelectorAll('#welcome_img_slide > canvas')
             document.querySelector('#welcome_img_slide').appendChild(canvas[0])
-            animates[prevItem].previous()
+            // animates[prevItem].previous()
         }, 3000);
     }
 
