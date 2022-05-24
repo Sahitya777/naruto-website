@@ -37,8 +37,8 @@ export const championsData = [
         bg: bgFortune,
         nickName: 'YELLOW FLASH OF THE LEAF',
         role: 'MARKSMAN',
-        difficulty: 'LOW',
-        description: 'A Bilgewater captain famed for her looks but feared for her ruthlessness, Sarah Fortune paints a stark figure among the hardened criminals of the port city. As a child, she witnessed the reaver king Gangplank murder her family—an act she brutally avenged years later, blowing up his flagship while he was still aboard. Those who underestimate her will face a beguiling and unpredictable opponent… and, likely, a bullet or two in their guts.',
+        difficulty: 'HIGH',
+        description: 'Minato Namikaze (波風ミナト, Namikaze Minato) was the Fourth Hokage of Konohagakure, although he was Lord Fourth, he also had the shortest reign of Hokage. He was famous in life for his speed, leading to the moniker of Yellow Flash of the Leaf (木ノ葉の黄色い閃光, Konoha no Kiiroi Senkō). He died during the Nine-Tailed Demon Fox Attack, sacrificing his life to seal a part of the Nine-Tails into his newborn son, Naruto Uzumaki.',
         video: 'lk5J40fZ36w',
         bgLarge: bgLargeFortune
     },
@@ -49,7 +49,7 @@ export const championsData = [
         nickName: 'THE HERO',
         role: 'MARKSMAN',
         difficulty: 'MODERATE',
-        description: `Iceborn warmother of the Avarosan tribe, Ashe commands the most populous horde in the north. Stoic, intelligent, and idealistic, yet uncomfortable with her role as leader, she taps into the ancestral magics of her lineage to wield a bow of True Ice. With her people's belief that she is the mythological hero Avarosa reincarnated, Ashe hopes to unify the Freljord once more by retaking their ancient, tribal lands.`,
+        description: `Naruto Uzumaki is a shinobi of Konohagakure's Uzumaki clan. He became the jinchūriki of the Nine-Tails on the day of his birth — a fate that caused him to be shunned by most of Konoha throughout his childhood. After joining Team Kakashi, Naruto worked hard to gain the village's acknowledgement all the while chasing his dream to become Hokage. Through many hardships and ordeals, he became a capable ninja, regarded as a hero both by the villagers, and soon after, the rest of the world, becoming known as the Hero of the Hidden Leaf.`,
         video: '0bjicmknkVw',
         bgLarge: bgLargeAshe
     },
@@ -60,7 +60,7 @@ export const championsData = [
         nickName: 'THE GHOST OF THE UCHIHA',
         role: 'FIGHTER',
         difficulty: 'EXTREME',
-        description: `A proud and noble warrior, Garen fights as one of the Dauntless Vanguard. He is popular among his fellows, and respected well enough by his enemies—not least as a scion of the prestigious Crownguard family, entrusted with defending Demacia and its ideals. Clad in magic-resistant armor and bearing a mighty broadsword, Garen stands ready to confront mages and sorcerers on the field of battle, in a veritable whirlwind of righteous steel.`,
+        description: `Madara Uchiha was the legendary leader of the Uchiha clan. He founded Konohagakure alongside his childhood friend and rival, Hashirama Senju, with the intention of beginning an era of peace. When the two couldn't agree on how to achieve that peace, they fought for control of the village, a conflict which ended in Madara's death. Madara, however, rewrote his death and went into hiding to work on his own plans. Unable to complete it in his natural life, he entrusted his knowledge and plans to Obito shortly before his actual death.`,
         video: 'DMSeibTVeRs',
         bgLarge: bgLargeGaren
     },
@@ -71,7 +71,7 @@ export const championsData = [
         nickName: 'THE LAST UCHIHA',
         role: 'MAGE',
         difficulty: 'MODERATE',
-        description: 'Innately connected to the latent power of Runeterra, Ahri is a vastaya who can reshape magic into orbs of raw energy. She revels in toying with her prey by manipulating their emotions before devouring their life essence. Despite her predatory nature, Ahri retains a sense of empathy as she receives flashes of memory from each soul she consumes.',
+        description: 'Sasuke belongs to the Uchiha clan, a notorious ninja family, and one of the most powerful, allied with Konohagakure. Most of its members were massacred by Sasuke older brother, Itachi Uchiha, before the series began, leaving Sasuke one of the few living. Despite becoming empathetic toward his teammates Naruto Uzumaki and Sakura Haruno, Sasuke feelings of powerlessness force him to abandon his friends and his home in his quest to become stronger.',
         video: 'XrWuGRMxrNI',
         bgLarge: bgLargeAhri
     },
@@ -82,7 +82,7 @@ export const championsData = [
         nickName: 'THE CLAN SLAYER',
         role: 'MAGE',
         difficulty: 'MODERATE',
-        description: `Luxanna Crownguard hails from Demacia, an insular realm where magical abilities are viewed with fear and suspicion. Able to bend light to her will, she grew up dreading discovery and exile, and was forced to keep her power secret, in order to preserve her family's noble status. Nonetheless, Lux's optimism and resilience have led her to embrace her unique talents, and she now covertly wields them in service of her homeland.`,
+        description: `Itachi Uchiha was a shinobi of Konohagakure's Uchiha clan who served as an Anbu Captain. He later became an international criminal after murdering his entire clan, sparing only his younger brother, Sasuke. He afterwards joined the international criminal organisation known as Akatsuki, whose activity brought him into frequent conflict with Konoha and its ninja — including Sasuke who sought to avenge their clan by killing Itachi.`,
         video: 'LiSuIXKsL30',
         bgLarge: bgLargeLux
     },
