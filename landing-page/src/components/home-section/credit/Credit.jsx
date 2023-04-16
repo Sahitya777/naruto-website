@@ -42,7 +42,7 @@ const Credit = props => {
                     <h2 className="main-color">FIGHT</h2>
                 </div>
                 <div className="btns m-t-4">
-                    <Button className="btn-main">PLAY NOW</Button>
+                    <Button className="btn-main">PLAY GAME</Button>
                     <Button className="btn-second">GET STARTED</Button>
                 </div>
             </div>

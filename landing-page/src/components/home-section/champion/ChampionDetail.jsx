@@ -36,7 +36,7 @@ const ChampionDetail=props=> {
             <div className='story'>
                 {item.description}
             </div>
-            <span>Champion spotlight</span>
+            <span>Champion Spotlights</span>
             <div className='video'>
                 <iframe
                     title='champion spotlight'
