@@ -65,7 +65,7 @@ const Welcome=props=> {
             <h2 className='main-color'>Reality</h2>
           </div>
           <div className='description m-t-4'>
-          Naruto (Japanese: NARUTOナルト) is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village. The story is told in two parts – the first set in Naruto's pre-teen years, and the second in his teens. 
+          Naruto (Japanese: NARUTOナルト) is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village. The story is told in two parts – the first set in Naruto's pre-teen years, and the second in his teens. <br />Through hardwork, training, and believe -'dattebayo', Naruto became the Hokage. Let's look through some of our favourite characters. 
           </div>
           <div className='btns m-t-4'>
             <Button className='btn-main'>PLAY NOW</Button>

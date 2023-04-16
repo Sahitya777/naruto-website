@@ -9,9 +9,9 @@ function Header() {
             <img src={logo} alt=""/>
           </div>
           <ul className='header_nav'>
-            <li><a href='#'>overview</a></li>
-            <li><a href='#'>news</a></li>
-            <li><a href='#'>champions</a></li>
+            <li><a href='href=https://naruto-official.com/' target='blank'>overview</a></li>
+            <li><a href='href=https://naruto-official.com/news' target='blank'>news</a></li>
+            <li><a href='https://narutop99.naruto-official.com/en/' target='blank'>polls</a></li>
             <li><a href='#'>support</a></li>
           </ul>
         </div>
